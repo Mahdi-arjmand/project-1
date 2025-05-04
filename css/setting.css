@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: yekan;
+  src: url(../font/fa/IRANYekanWeb-Medium.eot),
+    url(../font/fa/IRANYekanWeb-Medium.ttf),
+    url(../font/fa/IRANYekanWeb-Medium.woff),
+    url(../font/fa/IRANYekanWeb-Medium.woff2);
+}
+@font-face{
+  font-family: Nazanin;
+  src: url(../font/fa/B-NAZANIN.eot);
+  src: url(../font/fa/B-NAZANIN.TTF);
+  src: url(../font/fa/B-NAZANIN.woff);
+  src: url(../font/fa/B-NAZANIN.woff2);
+}
+.wrapper {
+  width: 100%;
+}
+:root {
+  --border-radius-medium: 7px;
+  --font-family-number:NAZANIN;
+}
+.activeFirestLinkMenu {
+  font-size: 14px !important;
+  color: black !important;
+  font-weight: bold;
+}
+.changscal {
+  transform: scale(0.8, 0.8);
+  color: gray;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 12px !important;
+  font-weight: bold;
+  color: black;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0 !important;
+}
+.swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+  transition: 500ms;
+}
+.swiper-pagination-bullet-active {
+  width: 25px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: white;
+}

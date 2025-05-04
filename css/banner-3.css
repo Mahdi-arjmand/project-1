@@ -1,0 +1,22 @@
+.banner-3{
+    margin: 0 auto;
+    width: 1335px;
+    height: 265px;
+    display: flex;
+    flex-flow: row gap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+
+   .left__banner , .right__banner{
+    border-radius: 16px;
+    & a{
+        text-decoration: none;
+        & img{
+            width: 660px;
+            height: 265px;
+            border-radius: 16px;
+        }
+    }
+   }
+}
